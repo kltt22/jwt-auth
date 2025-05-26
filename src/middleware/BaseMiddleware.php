@@ -1,9 +1,9 @@
 <?php
 
 
-namespace thans\jwt\middleware;
+namespace Yuan\JwtAuth\middleware;
 
-use thans\jwt\JWTAuth as Auth;
+use Yuan\JwtAuth\JWTAuth as Auth;
 use think\facade\Cookie;
 use think\facade\Config;
 

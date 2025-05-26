@@ -1,16 +1,16 @@
 <?php
 
 
-namespace thans\jwt;
+namespace Yuan\JwtAuth;
 
-use thans\jwt\claim\Factory;
-use thans\jwt\claim\Issuer;
-use thans\jwt\claim\Audience;
-use thans\jwt\claim\Expiration;
-use thans\jwt\claim\IssuedAt;
-use thans\jwt\claim\JwtId;
-use thans\jwt\claim\NotBefore;
-use thans\jwt\claim\Subject;
+use Yuan\JwtAuth\claim\Factory;
+use Yuan\JwtAuth\claim\Issuer;
+use Yuan\JwtAuth\claim\Audience;
+use Yuan\JwtAuth\claim\Expiration;
+use Yuan\JwtAuth\claim\IssuedAt;
+use Yuan\JwtAuth\claim\JwtId;
+use Yuan\JwtAuth\claim\NotBefore;
+use Yuan\JwtAuth\claim\Subject;
 
 class Payload
 {

@@ -1,9 +1,9 @@
 <?php
 
 
-namespace thans\jwt\claim;
+namespace Yuan\JwtAuth\claim;
 
-use thans\jwt\exception\TokenExpiredException;
+use Yuan\JwtAuth\exception\TokenExpiredException;
 
 class Expiration extends Claim
 {

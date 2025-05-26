@@ -1,7 +1,7 @@
 <?php
 
 
-namespace thans\jwt\contract;
+namespace Yuan\JwtAuth\contract;
 
 use think\Request;
 

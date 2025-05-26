@@ -1,9 +1,9 @@
 <?php
 
 
-namespace thans\jwt\parser;
+namespace Yuan\JwtAuth\parser;
 
-use thans\jwt\contract\Parser as ParserContract;
+use Yuan\JwtAuth\contract\Parser as ParserContract;
 use think\Request;
 
 class Param implements ParserContract

@@ -1,6 +1,6 @@
 <?php
 
-namespace thans\jwt\claim;
+namespace Yuan\JwtAuth\claim;
 
 abstract class Claim
 {

@@ -61,14 +61,15 @@ $ php think jwt:create
 ## 使用方式
 
 对于需要验证的路由或者模块添加中间件：
+
 ```php
- thans\jwt\middleware\JWTAuth::class,
+ Yuan\JwtAuth\middleware\JWTAuth::class,
 ```
 
 示例：
 
 ```php
-use thans\jwt\facade\JWTAuth;
+use Yuan\JwtAuth\facade\JWTAuth;
 
 $token = JWTAuth::builder(['uid' => 1]);//参数为用户认证的信息，请自行添加
 

@@ -1,12 +1,12 @@
 <?php
 
 
-namespace thans\jwt\provider;
+namespace Yuan\JwtAuth\provider;
 
-use thans\jwt\facade\JWTAuth;
-use thans\jwt\parser\AuthHeader;
-use thans\jwt\parser\Cookie;
-use thans\jwt\parser\Param;
+use Yuan\JwtAuth\facade\JWTAuth;
+use Yuan\JwtAuth\parser\AuthHeader;
+use Yuan\JwtAuth\parser\Cookie;
+use Yuan\JwtAuth\parser\Param;
 use think\App;
 use think\Container;
 use think\facade\Config;

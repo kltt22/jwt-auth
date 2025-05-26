@@ -1,7 +1,7 @@
 <?php
 
 
-namespace thans\jwt\exception;
+namespace Yuan\JwtAuth\exception;
 
 class TokenBlacklistGracePeriodException extends JWTException
 {

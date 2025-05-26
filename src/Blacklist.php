@@ -1,8 +1,8 @@
 <?php
 
-namespace thans\jwt;
+namespace Yuan\JwtAuth;
 
-use thans\jwt\contract\Storage;
+use Yuan\JwtAuth\contract\Storage;
 
 class Blacklist
 {

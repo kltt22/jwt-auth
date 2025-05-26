@@ -1,7 +1,7 @@
 <?php
 
 
-namespace thans\jwt\parser;
+namespace Yuan\JwtAuth\parser;
 
 use think\Request;
 

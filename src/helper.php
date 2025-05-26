@@ -1,7 +1,7 @@
 <?php
 
-use thans\jwt\command\SecretCommand;
-use thans\jwt\provider\JWT as JWTProvider;
+use Yuan\JwtAuth\command\SecretCommand;
+use Yuan\JwtAuth\provider\JWT as JWTProvider;
 use think\Console;
 use think\App;
 

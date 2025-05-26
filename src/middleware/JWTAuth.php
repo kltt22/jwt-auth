@@ -1,7 +1,7 @@
 <?php
 
 
-namespace thans\jwt\middleware;
+namespace Yuan\JwtAuth\middleware;
 
 class JWTAuth extends BaseMiddleware
 {

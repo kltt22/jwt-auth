@@ -1,7 +1,7 @@
 <?php
 
 
-namespace thans\jwt\claim;
+namespace Yuan\JwtAuth\claim;
 
 class Subject extends Claim
 {

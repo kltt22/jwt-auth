@@ -1,10 +1,10 @@
 <?php
 
 
-namespace thans\jwt\middleware;
+namespace Yuan\JwtAuth\middleware;
 
-use thans\jwt\exception\TokenExpiredException;
-use thans\jwt\exception\TokenBlacklistGracePeriodException;
+use Yuan\JwtAuth\exception\TokenExpiredException;
+use Yuan\JwtAuth\exception\TokenBlacklistGracePeriodException;
 
 class JWTAuthAndRefresh extends BaseMiddleware
 {
