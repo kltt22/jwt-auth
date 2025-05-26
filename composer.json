@@ -1,22 +1,22 @@
 {
-    "name": "thans/tp-jwt-auth",
+    "name": "yuan/jwt-auth",
     "description": "thinkphp jwt auth composer",
     "type": "library",
     "require": {
         "php": ">=8.0",
-        "lcobucci/jwt": "^4.3",
+        "lcobucci/jwt": "^5.3",
         "topthink/framework": ">=6.0"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Thans",
-            "email": "ntbperst@outlook.com"
+            "name": "yuan",
+            "email": "6481894@qq.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "thans\\jwt\\": "src"
+             "Yuan\\JwtAuth\\": "src/"
         },
         "files": [
             "src/helper.php"
@@ -25,7 +25,7 @@
     "extra": {
         "think": {
             "services": [
-                "thans\\jwt\\Service"
+                "yuan\\jwt\\Service"
             ],
             "config": {
                 "jwt": "config/config.php"
