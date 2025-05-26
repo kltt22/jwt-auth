@@ -1,5 +1,5 @@
 {
-    "name": "yuan/jwt-auth",
+    "name": "yuanc/jwt-auth",
     "description": "thinkphp jwt auth composer",
     "type": "library",
     "require": {
@@ -10,13 +10,13 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "yuan",
+            "name": "yuanc",
             "email": "6481894@qq.com"
         }
     ],
     "autoload": {
         "psr-4": {
-             "Yuan\\JwtAuth\\": "src/"
+             "Yuanc\\JwtAuth\\": "src/"
         },
         "files": [
             "src/helper.php"
@@ -25,7 +25,7 @@
     "extra": {
         "think": {
             "services": [
-                "yuan\\jwt\\Service"
+                "yuanc\\jwt\\Service"
             ],
             "config": {
                 "jwt": "config/config.php"

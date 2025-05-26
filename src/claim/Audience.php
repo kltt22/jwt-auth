@@ -1,6 +1,6 @@
 <?php
 
-namespace Yuan\JwtAuth\claim;
+namespace Yuanc\JwtAuth\claim;
 
 class Audience extends Claim
 {

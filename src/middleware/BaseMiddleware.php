@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Yuan\JwtAuth\middleware;
+namespace Yuanc\JwtAuth\middleware;
 
-use Yuan\JwtAuth\JWTAuth as Auth;
+use Yuanc\JwtAuth\JWTAuth as Auth;
 use think\facade\Cookie;
 use think\facade\Config;
 

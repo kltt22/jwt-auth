@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Yuan\JwtAuth\parser;
+namespace Yuanc\JwtAuth\parser;
 
-use Yuan\JwtAuth\contract\Parser as ParserContract;
+use Yuanc\JwtAuth\contract\Parser as ParserContract;
 use think\Request;
 
 class AuthHeader implements ParserContract

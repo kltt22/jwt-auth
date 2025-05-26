@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Yuan\JwtAuth\provider;
+namespace Yuanc\JwtAuth\provider;
 
-use Yuan\JwtAuth\facade\JWTAuth;
-use Yuan\JwtAuth\parser\AuthHeader;
-use Yuan\JwtAuth\parser\Cookie;
-use Yuan\JwtAuth\parser\Param;
+use Yuanc\JwtAuth\facade\JWTAuth;
+use Yuanc\JwtAuth\parser\AuthHeader;
+use Yuanc\JwtAuth\parser\Cookie;
+use Yuanc\JwtAuth\parser\Param;
 use think\App;
 use think\Container;
 use think\facade\Config;

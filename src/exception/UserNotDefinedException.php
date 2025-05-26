@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Yuan\JwtAuth\exception;
+namespace Yuanc\JwtAuth\exception;
 
 class UserNotDefinedException extends JWTException
 {

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Yuan\JwtAuth\command;
+namespace Yuanc\JwtAuth\command;
 
 use think\console\Input;
 use think\console\Output;

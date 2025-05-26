@@ -1,10 +1,10 @@
 <?php
 
-namespace Yuan\JwtAuth;
+namespace Yuanc\JwtAuth;
 
-use Yuan\JwtAuth\exception\TokenBlacklistException;
-use Yuan\JwtAuth\exception\TokenBlacklistGracePeriodException;
-use Yuan\JwtAuth\provider\JWT\Provider;
+use Yuanc\JwtAuth\exception\TokenBlacklistException;
+use Yuanc\JwtAuth\exception\TokenBlacklistGracePeriodException;
+use Yuanc\JwtAuth\provider\JWT\Provider;
 
 class Manager
 {

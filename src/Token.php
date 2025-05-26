@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Yuan\JwtAuth;
+namespace Yuanc\JwtAuth;
 
 class Token
 {

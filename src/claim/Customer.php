@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Yuan\JwtAuth\claim;
+namespace Yuanc\JwtAuth\claim;
 
 class Customer extends Claim
 {

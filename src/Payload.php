@@ -1,16 +1,16 @@
 <?php
 
 
-namespace Yuan\JwtAuth;
+namespace Yuanc\JwtAuth;
 
-use Yuan\JwtAuth\claim\Factory;
-use Yuan\JwtAuth\claim\Issuer;
-use Yuan\JwtAuth\claim\Audience;
-use Yuan\JwtAuth\claim\Expiration;
-use Yuan\JwtAuth\claim\IssuedAt;
-use Yuan\JwtAuth\claim\JwtId;
-use Yuan\JwtAuth\claim\NotBefore;
-use Yuan\JwtAuth\claim\Subject;
+use Yuanc\JwtAuth\claim\Factory;
+use Yuanc\JwtAuth\claim\Issuer;
+use Yuanc\JwtAuth\claim\Audience;
+use Yuanc\JwtAuth\claim\Expiration;
+use Yuanc\JwtAuth\claim\IssuedAt;
+use Yuanc\JwtAuth\claim\JwtId;
+use Yuanc\JwtAuth\claim\NotBefore;
+use Yuanc\JwtAuth\claim\Subject;
 
 class Payload
 {

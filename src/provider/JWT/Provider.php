@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Yuan\JwtAuth\provider\JWT;
+namespace Yuanc\JwtAuth\provider\JWT;
 
-use Yuan\JwtAuth\exception\JWTException;
+use Yuanc\JwtAuth\exception\JWTException;
 
 class Provider
 {

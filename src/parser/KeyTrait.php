@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Yuan\JwtAuth\parser;
+namespace Yuanc\JwtAuth\parser;
 
 trait KeyTrait
 {

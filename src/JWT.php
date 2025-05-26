@@ -1,10 +1,10 @@
 <?php
 
-namespace Yuan\JwtAuth;
+namespace Yuanc\JwtAuth;
 
-use Yuan\JwtAuth\exception\BadMethodCallException;
-use Yuan\JwtAuth\parser\Parser;
-use Yuan\JwtAuth\exception\JWTException;
+use Yuanc\JwtAuth\exception\BadMethodCallException;
+use Yuanc\JwtAuth\parser\Parser;
+use Yuanc\JwtAuth\exception\JWTException;
 
 class JWT
 {

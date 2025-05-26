@@ -1,7 +1,7 @@
 <?php
 
-use Yuan\JwtAuth\command\SecretCommand;
-use Yuan\JwtAuth\provider\JWT as JWTProvider;
+use Yuanc\JwtAuth\command\SecretCommand;
+use Yuanc\JwtAuth\provider\JWT as JWTProvider;
 use think\Console;
 use think\App;
 

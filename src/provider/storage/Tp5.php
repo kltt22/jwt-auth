@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Yuan\JwtAuth\provider\storage;
+namespace Yuanc\JwtAuth\provider\storage;
 
 
-use Yuan\JwtAuth\contract\Storage;
+use Yuanc\JwtAuth\contract\Storage;
 use think\facade\Cache;
 
 class Tp5 implements Storage

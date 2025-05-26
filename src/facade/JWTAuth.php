@@ -1,6 +1,6 @@
 <?php
 
-namespace Yuan\JwtAuth\facade;
+namespace Yuanc\JwtAuth\facade;
 
 use think\Facade;
 
@@ -8,7 +8,7 @@ use think\Facade;
  * Class JWTAuth
  *
  * @package thans\jwt\facade
- * @mixin \Yuan\JwtAuth\JWTAuth
+ * @mixin \Yuanc\JwtAuth\JWTAuth
  * @method string builder(array $user = []) static Token构建
  * @method array auth() static Token验证
  * @method string refresh() static Token刷新

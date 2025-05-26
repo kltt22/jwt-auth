@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Yuan\JwtAuth\claim;
+namespace Yuanc\JwtAuth\claim;
 
-use Yuan\JwtAuth\exception\TokenExpiredException;
+use Yuanc\JwtAuth\exception\TokenExpiredException;
 
 class IssuedAt extends Claim
 {

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Yuan\JwtAuth\contract;
+namespace Yuanc\JwtAuth\contract;
 
 interface Storage
 {

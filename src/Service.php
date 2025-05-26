@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Yuan\JwtAuth;
+namespace Yuanc\JwtAuth;
 
-use Yuan\JwtAuth\command\SecretCommand;
-use Yuan\JwtAuth\middleware\InjectJwt;
-use Yuan\JwtAuth\provider\JWT as JWTProvider;
+use Yuanc\JwtAuth\command\SecretCommand;
+use Yuanc\JwtAuth\middleware\InjectJwt;
+use Yuanc\JwtAuth\provider\JWT as JWTProvider;
 
 class Service extends \think\Service
 {
